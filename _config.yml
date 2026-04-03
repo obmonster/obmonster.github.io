@@ -7,12 +7,12 @@ title: ᶘ ᵒᴥᵒᶅ                         # 网站的标题，可能用在
 subtitle:                                 # 网站子标题
 description:                              # 网站的描述性
 keywords:                                 # 网站的关键字
-author: 天外边                        # 网站的作者
+author: obmonster                        # 网站的作者
 language: zh-CN                           # 网站采用语言，要跟/theme/***/languages/**.yml下的文件名对应。
 timezone: Asia/Shanghai                   # 网站的时区
 
 # URL
-url: https://tianwaibian.github.io/         # 网站的url，如果不在域名根目录，应包含子目录，且root要设置为`/子目录/`
+url: https://obmonster.github.io/         # 网站的url，如果不在域名根目录，应包含子目录，且root要设置为`/子目录/`
 root: /                                   # 网站的根目录
 permalink: :year/:month/:day/:title/      #文章永久链接的形成模版。每一篇文章都有唯一的url。
 permalink_defaults:                       #文章永久链接中，各部分的默认值。
@@ -90,5 +90,5 @@ theme: fluid                               #当前主题名称。值为false时�
 # Deployment
 deploy:                                   #部署部分的设置
   type: 'git'
-  repo: git@github.com:tianwaibian/tianwaibian.github.io.git
+  repo: git@github.com:obmonster/obmonster.github.io.git
   branch: 'server'
